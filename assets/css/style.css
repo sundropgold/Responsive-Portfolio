@@ -775,4 +775,59 @@ div.thumbnail:nth-of-type(even) {
 		padding:0px 32px 0px 32px;
 		box-sizing: border-box;
 	}
+
+	/* --- PORTFOLIO --- */
+
+	h2#portfolio {
+		padding:13px 50% 35px 8px;
+	}
+
+	h3.portname {
+		color:#ffffff;
+		background-color: #00afa8;
+		text-align: center;
+
+		position:absolute;
+		left:0px;
+		top:80%;
+		padding:23px 2.5% 23px 2.5%;
+		width:100%;
+
+		display:inline-block;
+		float:left;
+	}
+
+	img.portfolio {
+		width:105%;
+		margin-top:40px;
+		position:relative;
+	}
+
+	div.thumbnail, div.thumbnail:nth-of-type(even) {
+		width:300px;
+		margin:0;
+		padding:0px;
+		display: block;
+		float:left;
+		position:relative;
+	}
+
+	/* --- CONTACT --- */
+
+	h2#contact {
+		padding: 13px 60% 35px 8px;
+	}
+
+	form {
+		clear:both;
+		padding:31px 0px 0px 0px;
+	}
+
+	input {
+		width:95%;
+		font-size:14px;
+		padding:5px;
+		margin:5px 5px 10px 0px;
+	}
+
 }
