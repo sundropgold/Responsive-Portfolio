@@ -510,7 +510,7 @@ div.thumbnail:nth-of-type(even) {
 
 
 /* ----- TABLET ----- */
-@media screen and (min-width: 640px) and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
 
 	/* --- HEADER ---*/
 
