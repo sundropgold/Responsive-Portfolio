@@ -330,7 +330,7 @@ div.thumbnail:nth-of-type(even) {
 
 	h1 {
 		position:relative;
-		left:0;
+		left:2%;
 
 		text-align: center;
 		background-color:#00afa8;
@@ -659,7 +659,7 @@ div.thumbnail:nth-of-type(even) {
 }
 
 /* ----- DESKTOP ----- */
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 769px) and (max-width: 980px) {
 
 	/* --- HEADER --- */
 	body {
@@ -680,7 +680,7 @@ div.thumbnail:nth-of-type(even) {
 		width:200px;
 		margin-top:0px;
 		margin-bottom:0px;
-		margin-left:9%;
+		margin-left:11%;
 		margin-right:0px;
 	}
 
@@ -689,7 +689,7 @@ div.thumbnail:nth-of-type(even) {
 		position: absolute;
 		width: 100%;
 		top:30px;
-		right:-15%;
+		right:-13%;
 	}
 
 	ul {
@@ -746,7 +746,7 @@ div.thumbnail:nth-of-type(even) {
 
 	div#main {
 		position:relative;
-		left:9%;
+		left:11%;
 
 		width:35%;
 		display:block;
@@ -765,7 +765,7 @@ div.thumbnail:nth-of-type(even) {
 	
 	div#sidebar {
 		position:absolute;
-		right:9%;
+		right:11%;
 		top:131px;
 		display: inline-block;
 		float: left;
@@ -829,5 +829,7 @@ div.thumbnail:nth-of-type(even) {
 		padding:5px;
 		margin:5px 5px 10px 0px;
 	}
+
+
 
 }
